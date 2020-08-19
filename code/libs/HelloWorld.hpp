@@ -1,5 +1,7 @@
+#pragma once
+
 #include <iostream>
 
 namespace HelloWorld {
-  std::string imprimirHelloWorld();
+  std::string returnHelloWorld();
 }

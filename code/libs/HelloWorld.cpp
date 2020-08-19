@@ -1,5 +1,5 @@
 #include "HelloWorld.hpp"
 
-std::string HelloWorld::imprimirHelloWorld() {
-  return "Hola mundo!\n";
+std::string HelloWorld::returnHelloWorld() {
+  return "Hello world!\n";
 }
