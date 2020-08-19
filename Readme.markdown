@@ -26,7 +26,7 @@ In this template is the example created, but let's go over how to do this. The f
 #include <string>
 
 namespace HelloWorld {
-  std::string stringHelloWorld();
+  std::string returnHelloWorld();
 }
 ```
 
@@ -36,7 +36,7 @@ namespace HelloWorld {
 // code/libs/HelloWorld.cpp
 #include "HelloWorld.hpp"
 
-std::string HelloWorld::stringHelloWorld() {
+std::string HelloWorld::returnHelloWorld() {
   std::string hello = "Hello World!";
   return hello;
 }
@@ -81,7 +81,7 @@ using namespace std;
 
 int main() {
 
-  std::cout << HelloWorld::imprimirHelloWorld();
+  std::cout << HelloWorld::returnHelloWorld();
 
   return 0;
 }
